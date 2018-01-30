@@ -10,7 +10,7 @@ public class Similar {
 
 	private String str1;
 	private String str2;
-	private String dir = "/usr/loacl/WordNet";
+	private String dir = "/usr/local/WordNet";
 	private JWS ws = new JWS(dir, "2.1");
 
 	public Similar(String str1, String str2) {
